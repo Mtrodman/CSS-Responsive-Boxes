@@ -1,3 +1,43 @@
 body {
   background: papayawhip;
 }
+*{
+  border:2px solid black;
+}
+
+.row {
+  display: flex;
+  flex-wrap:wrap;
+}
+.b {
+  flex:60%
+  
+
+}
+
+.row2{
+  display:flex;
+  flex:wrap;
+}
+
+
+.c, .d, .e, .f{
+  flex:10%;
+  display: inline-flex;
+}
+
+
+@media screen and (max-width: 500px) {
+  .row  {   
+    flex-direction: column;
+  }
+.row2 {
+  display:flex;
+  justify-content: space-around;
+}
+}
+
+  
+ 
+
+

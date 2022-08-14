@@ -1,3 +1,38 @@
-body {
-  background: blanchedalmond;
+
+*{
+  border:2px solid black;
+}
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+h1 {
+  display: flex;
+  min-width: 95%;
+  min-height: 100px;
+  border:2px dotted red;
+  margin:5px;
+}
+.b {
+  
+  display: flex;
+  min-width: 68;
+  min-height: 400px;
+  border:2px dashed violet;
+  margin:5px;
+}
+
+/* Main column */
+.c {
+  display: flex;
+  min-width: 25.5%;
+  min-height: 400px;
+  border:2px groove orangered;
+  margin:5px;
+}
+
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
 }
